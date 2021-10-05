@@ -31,7 +31,7 @@ footer {
     background-color: #36aa2e;
 font-family: serif;}
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 600px) {
     #table :nth-child(2){
         order: 3;
       }
