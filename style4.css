@@ -1,0 +1,42 @@
+#my_menu {
+    background-color: #4bbc6e80;
+    font-family: serif;}
+
+#hyper, #form{
+    background-color: #4bbc6e80;
+    font-family: serif;}
+
+header main, header aside{
+    background-color: #36aa2e;
+    font-family: serif;    height: 100%;
+}
+
+table td, th {
+  border: 2px solid black;
+}
+
+table {
+  width: 100%;
+  font-family: serif;}
+
+.nech {
+    background-color:#141ad8d1;
+}
+
+.ch {
+    background-color:#01b9ffa8;
+}
+
+footer {
+    background-color: #36aa2e;
+font-family: serif;}
+
+@media screen and (min-width: 600px) {
+    #table :nth-child(2){
+        order: 3;
+      }
+      
+    #form :nth-child(3){
+        order: 2;
+      }
+  }
