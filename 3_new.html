@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Задание 3</title>
+    <meta charset = "utf-8">
+    <link rel="stylesheet" href = "3_new.css">
+  </head>
+  <body>
+        <header>
+            <div class="logo">
+                <img class="logotip" src="logotip2.png" width="180" height="130" alt="Logo"> </a>
+               <h1>GREENway</h1>
+            </div>
+        </header>
+        <nav>
+            <div class="topnav" id="myTopnav">
+               
+                    <a href="#a">Список</a>
+                    <a href="#table">Таблица</a>
+                    <a href="#form">Форма</a>
+               
+            </div>
+        </nav>
+    <main>
+        <div class = "block">
+            <h2 class="line2" id ="a">Гиперссылки </h2>
+        </div>
+            <div class="links">   
+                <ol>
+                    <li><a href="http://example.com/">Абсолютная гиперссылка на главную страницу сайта example.com</a></li>
+                    <li><a href="https://example.com/">Абсолютная гиперссылка на главную страницу сайта example.com в протоколе https</a></li>
+                    <li><a href="ftp://example.com/file.txt">Cсылка на файл на сервере FTP без авторизации</a></li>
+                    <li><a href="ftp://user:22/2@example.com/file.txt">Cсылка на файл на сервере FTP с авторизацией</a></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/Марианский_желоб#Факты">Ссылка на фрагмент страницы некоторго сайта</a></li>
+                    <li><a href="#Сокращенная ссылка от А к Б">Cсылкa на фрагмент текущей страницы</a></li>
+                    <li><a href="https://yandex.ru/images/search?text=космос">Cсылка с двумя параметрами в URL</a></li>
+                    <li>Навигация по сайту Владивостока|VL.ru
+                        <ul>
+                            <li><a href="https://www.newsvl.ru"title="Новости Влпдивостока">Новости</a></li>
+                            <li><a href="https://www.vl.ru/afisha/vladivostok"title="Афиша во Владивостоке">Афиша</a></li>
+                            <li><a href="https://www.farpost.ru/vladivostok/job/vacancy/?utm_source=vl.ru&utm_medium=job_widget&utm_term"title="Вакансии во Владивостоке">Вакансии</a></li>
+                            <li><a href="https://www.farpost.ru/vladivostok/?utm_source=vl.ru&utm_medium=left_menu&utm_term=FarPost"title="Объявления от частных лиц и компаний">Farpost</a></li>
+                        </ul>
+                    </li>
+                    <li><a title="ссылка без href">Ссылка без href</a></li>
+                    <li><a href="javascript:void(0);">Сайт отсутствует</a></li>
+                    <li><a href="https://pixabay.com/ru/images/search/" rel="nofollow">Cсылка, по которой запрещен переход поисковикам</a></li>
+                    <li><noindex><a href="https://pixabay.com/ru/images/search/">Ссылкуа, запрещенная для индексации</a></noindex></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/КВ-1">Танк КВ-1</a> является таким же символом победы в Великой Отечественной войне, как и легендарный танк <a href="https://ru.wikipedia.org/wiki/Т-34">T-34.</a></li>
+                    <li><p><a href=""><img class = "cl_img"src="https://i.artfile.ru/1600x1200_428743_[www.ArtFile.ru].jpg" alt="Цветок" style="width: 600px;"></a></p></li>
+                    <li><a href="sample.html"><img class = "cl_img"src = "https://hdlatestwallpaper.com/wp-content/uploads/2018/07/Rafflesia-flower-HD-wallpaper.jpg" alt="Цветок" style="width: 600px;" usemap = "#map">
+                        <map name = "map">
+                        <area shape = "rect" href = "ссылка 1" coords = "20 20 120 120"/>
+                        <area shape = "circle" href = "ссылка 2" coords = "180 70 40"/>
+                        </map></a></li>
+                    <li><a href="file.html">Расположен в текущем каталоге</a></li>
+                    <li><a href="about/file.html">Расположен в каталоге about</a></li>
+                    <li><a href="../file.html">Расположен в каталоге уровнем выше текущего</a></li>
+                    <li><a href="../../file.html">Расположен в каталоге двумя уровнями выше</a></li>
+                    <li><a href="/">Сокращенная ссылка на главную страницу</a></li>
+                    <li><a href="cat"title="Адрес А:http://mysite.ru/pets/dog   Адрес Б:http://mysite.ru/pets/cat">Сокращенная ссылка от А к Б</a></li>
+                </ol>
+                        
+                <div class = "container">
+                    <div class = "sec2">
+                        <h2 class="line" id ="table">Таблица</h2>
+                            <table>
+                                <tr>
+                                <th>Заголовок 1</th>
+                                <th>Заголовок 2</th>
+                                <th>Заголовок 3</th>
+                                <th>Заголовок 4</th>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">Ячейка 1 объединенная с 2</td>
+                                    <td>Ячейка 3</td>
+                                    <td>Ячейка 4</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan = "2" >Ячейка 5 объединенная с 9</td>
+                                    <td colspan="2">Ячейка 6 объединенная с 7</td>
+                                    <td>Ячейка 8</td>
+                                </tr>
+                                <tr>
+                                    <td>Ячейка 10</td>
+                                    <td>Ячейка 11</td>
+                                    <td>Ячейка 12</td>  
+                                </tr>
+                                <tr>
+                                    <td colspan="4">Ячейка 13 объединенная с ячейками: 14, 15 и 16</td>
+                                </tr>
+                                <tr>
+                                    <td>Ячейка 17</td>
+                                    <td colspan="3">Ячейка 18 объединенная с ячейками: 19, 20</td>
+                                </tr>
+                            </table>
+                    </div>
+                    <br>
+                    <div class = "sec3" >
+                        <h2 class="line"id ="form">Форма</h2>
+                        <form id="formaa">
+                            <label>Имя:
+                            <br>
+                            <input type="text" placeholder="Здесь Имя">
+                            </label>
+                            <br>
+                            <label>e-mail:
+                            <br>
+                            <input type="email" placeholder="Здесь email">
+                            </label>
+                            <br>
+                            <label>Дата рождения:
+                            <br>
+                            <input type="date" value="2001-05-18">
+                            </label>
+                            <br>
+                            Пол:
+                            <br>
+                            <label>
+                            <input type="radio" name="m or fem">
+                            Мужской
+                            </label>
+                            <label>
+                            <input type="radio" name="m or fem">
+                            Женский
+                            </label>
+                            <br>
+                            Количество конечностей:
+                            <br>
+                            <label>
+                            <input type="radio" name="konechnosti">
+                            0
+                            </label>
+                            <label>
+                            <input type="radio" name="konechnosti">
+                            1
+                            </label>
+                            <label>
+                            <input type="radio" name="konechnosti">
+                            2
+                            </label>
+                            <label>
+                            <input type="radio" name="konechnosti">
+                            3
+                            </label>
+                            <label>
+                            <input type="radio" name="konechnosti">
+                            4
+                            </label>
+                            <br>
+                            <label>Сверхспособности:
+                            <br>
+                            <select multiple="multiple">
+                                <option>Бессмертие</option>
+                                <option>Прохождение сквозь стены</option>
+                                <option>Знать HTML</option>
+                                <option>Закончить ПМИ</option>
+                                <option>Левитация</option>
+                            </select>
+                            </label>
+                            <br>
+                            <label>Биография:
+                            <br>
+                            <textarea placeholder="Обо мне: "></textarea>
+                            </label>
+                            <br>
+                            <label>
+                            <input type="checkbox">
+                            С контрактом ознакомлен
+                            </label>
+                            <br>
+                            <input type="button" value="Отправить">
+                        </form>
+                    </div>
+                </div> 
+        </div>
+        </main>
+       <footer>
+        <div class = "podval"
+            <div class="p1">(с) Орлов Ростислав 2021</div>
+       </div>
+    </footer> 
+  </body>
+</html>
+
+
