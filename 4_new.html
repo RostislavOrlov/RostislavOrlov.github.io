@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Задание 4</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="4_new.css">
+  </head>
+  <body>
+        <header class="header">
+            <div class="container-fluid ">
+                <div class="row mb-2">
+                    <div class="col-lg-5 m-1 text-center"> <img src="logotip2.png" class="img-fluid " id="graficlogo" alt="Logo"></div>
+                    <div class="col-lg-1 mt-5">
+                        <p>GREENway</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <div class="container" style="width: 960px;">
+                <div class="p-1 bg-light border col text-center">
+                    <div class="row mb-1 mt-3">
+                        <div class="col-md-4 col-sm-12 col-xl-4 "><a href="#a"><p class="fs-4">Список</p></a></div>
+                        <div class="col-md-4 col-sm-12 col-xl-4"><a href="#table"><p class="fs-4">Таблица</p></a></div>
+                        <div class="col-md-4 col-sm-12 col-xl-4"><a href="#forma"><p class="fs-4">Форма</p></a></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    <main>
+        <div class="container mt-2" style="width: 960px;">
+            <div class="d-grid gap-3">
+                <h2 class="p-3 bg-light border col text-center" id = "a">Гиперссылки</h2>
+            </div>
+            <div class="bg-light border" id="my_link">   
+                <ol>
+                    <li><a href="http://example.com/">Абсолютная гиперссылка на главную страницу сайта example.com</a></li>
+                    <li><a href="https://example.com/">Абсолютная гиперссылка на главную страницу сайта example.com в протоколе https</a></li>
+                    <li><a href="ftp://example.com/file.txt">Cсылка на файл на сервере FTP без авторизации</a></li>
+                    <li><a href="ftp://user:22/2@example.com/file.txt">Cсылка на файл на сервере FTP с авторизацией</a></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/Марианский_желоб#Факты">Ссылка на фрагмент страницы некоторго сайта</a></li>
+                    <li><a href="#Сокращенная ссылка от А к Б">Cсылкa на фрагмент текущей страницы</a></li>
+                    <li><a href="https://yandex.ru/images/search?text=космос">Cсылка с двумя параметрами в URL</a></li>
+                    <li>Навигация по сайту Владивостока|VL.ru
+                        <ul>
+                            <li><a href="https://www.newsvl.ru"title="Новости Влпдивостока">Новости</a></li>
+                            <li><a href="https://www.vl.ru/afisha/vladivostok"title="Афиша во Владивостоке">Афиша</a></li>
+                            <li><a href="https://www.farpost.ru/vladivostok/job/vacancy/?utm_source=vl.ru&utm_medium=job_widget&utm_term"title="Вакансии во Владивостоке">Вакансии</a></li>
+                            <li><a href="https://www.farpost.ru/vladivostok/?utm_source=vl.ru&utm_medium=left_menu&utm_term=FarPost"title="Объявления от частных лиц и компаний">Farpost</a></li>
+                        </ul>
+                    </li>
+                    <li><a title="ссылка без href">Ссылка без href</a></li>
+                    <li><a href="javascript:void(0);">Сайт отсутствует</a></li>
+                    <li><a href="https://pixabay.com/ru/images/search/" rel="nofollow">Cсылка, по которой запрещен переход поисковикам</a></li>
+                    <li><noindex><a href="https://pixabay.com/ru/images/search/">Ссылкуа, запрещенная для индексации</a></noindex></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/КВ-1">Танк КВ-1</a> является таким же символом победы в Великой Отечественной войне, как и легендарный танк <a href="https://ru.wikipedia.org/wiki/Т-34">T-34.</a></li>
+                    <li><p><a href=""><img class = "cl_img"src="https://i.artfile.ru/1600x1200_428743_[www.ArtFile.ru].jpg" alt="Цветок" style="width: 600px;"></a></p></li>
+                    <li><a href="sample.html"><img class = "cl_img"src = "https://hdlatestwallpaper.com/wp-content/uploads/2018/07/Rafflesia-flower-HD-wallpaper.jpg" alt="Цветок" style="width: 600px;" usemap = "#map">
+                        <map name = "map">
+                        <area shape = "rect" href = "ссылка 1" coords = "20 20 120 120"/>
+                        <area shape = "circle" href = "ссылка 2" coords = "180 70 40"/>
+                        </map></a></li>
+                    <li><a href="file.html">Расположен в текущем каталоге</a></li>
+                    <li><a href="about/file.html">Расположен в каталоге about</a></li>
+                    <li><a href="../file.html">Расположен в каталоге уровнем выше текущего</a></li>
+                    <li><a href="../../file.html">Расположен в каталоге двумя уровнями выше</a></li>
+                    <li><a href="/">Сокращенная ссылка на главную страницу</a></li>
+                    <li><a href="cat"title="Адрес А:http://mysite.ru/pets/dog   Адрес Б:http://mysite.ru/pets/cat">Сокращенная ссылка от А к Б</a></li>
+                </ol>
+            </div>
+        </div>  
+        <div class="container mt-2" style="width: 960px;">
+            <div class ="row">
+                <div class="col-sm-12 col-lg-12 order-2 order-sm-2 order-lg-1 mt-3 text-center"> 
+                    <div class="d-grid gap-3">
+                        <h2 class="p-3 bg-light border col text-center" id ="table">Таблица</h2>
+                    </div>
+                            <table>
+                                <tr>
+                                <th>Заголовок 1</th>
+                                <th>Заголовок 2</th>
+                                <th>Заголовок 3</th>
+                                <th>Заголовок 4</th>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">Ячейка 1 объединенная с 2</td>
+                                    <td>Ячейка 3</td>
+                                    <td>Ячейка 4</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan = "2" >Ячейка 5 объединенная с 9</td>
+                                    <td colspan="2">Ячейка 6 объединенная с 7</td>
+                                    <td>Ячейка 8</td>
+                                </tr>
+                                <tr>
+                                    <td>Ячейка 10</td>
+                                    <td>Ячейка 11</td>
+                                    <td>Ячейка 12</td>  
+                                </tr>
+                                <tr>
+                                    <td colspan="4">Ячейка 13 объединенная с ячейками: 14, 15 и 16</td>
+                                </tr>
+                                <tr>
+                                    <td>Ячейка 17</td>
+                                    <td colspan="3">Ячейка 18 объединенная с ячейками: 19, 20</td>
+                                </tr>
+                            </table>
+                    </div>
+                    <br>
+                    <div class="col-sm-12 col-lg-12 order-1 order-sm-1 order-lg-5 text-center mt-3">
+                        <div class="d-grid gap-3">
+                            <h2 class="p-3 bg-light border col text-center"  id ="forma">Форма</h2>
+                        </div>
+                        <form id="formaa">
+                            <label>Имя:
+                            <br>
+                            <input type="text" placeholder="Здесь Имя">
+                            </label>
+                            <br>
+                            <label>e-mail:
+                            <br>
+                            <input type="email" placeholder="Здесь email">
+                            </label>
+                            <br>
+                            <label>Дата рождения:
+                            <br>
+                            <input type="date" value="2001-05-18">
+                            </label>
+                            <br>
+                            Пол:
+                            <br>
+                            <label>
+                            <input type="radio" name="m or fem">
+                            Мужской
+                            </label>
+                            <label>
+                            <input type="radio" name="m or fem">
+                            Женский
+                            </label>
+                            <br>
+                            Количество конечностей:
+                            <br>
+                            <label>
+                            <input type="radio" name="konechnosti">
+                            0
+                            </label>
+                            <label>
+                            <input type="radio" name="konechnosti">
+                            1
+                            </label>
+                            <label>
+                            <input type="radio" name="konechnosti">
+                            2
+                            </label>
+                            <label>
+                            <input type="radio" name="konechnosti">
+                            3
+                            </label>
+                            <label>
+                            <input type="radio" name="konechnosti">
+                            4
+                            </label>
+                            <br>
+                            <label>Сверхспособности:
+                            <br>
+                            <select multiple="multiple">
+                                <option>Бессмертие</option>
+                                <option>Прохождение сквозь стены</option>
+                                <option>Знать HTML</option>
+                                <option>Закончить ПМИ</option>
+                                <option>Левитация</option>
+                            </select>
+                            </label>
+                            <br>
+                            <label>Биография:
+                            <br>
+                            <textarea placeholder="Обо мне: "></textarea>
+                            </label>
+                            <br>
+                            <label>
+                            <input type="checkbox">
+                            С контрактом ознакомлен
+                            </label>
+                            <br>
+                            <input type="button" value="Отправить">
+                        </form>
+                    </div>
+                </div> 
+        </div>
+        </main>
+       <footer>
+        <div class="container-fluid mt-3">
+            <div class="row" id="my_footer">
+                <div class="col mt-3 justify-content text-center">
+                    <p>2021@ Орлов Ростислав</p>
+                </div>
+            </div>
+        </div>
+    </footer> 
+  </body>
+</html>

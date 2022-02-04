@@ -1,0 +1,81 @@
+a{
+    text-decoration: none;
+    color: black;
+  }
+
+body{
+    background-image: url(phon2.jpg);
+     background-size: 100% 100%;
+     background-attachment: fixed; 
+     background-repeat: repeat-x;
+    display: inline-block;
+    width: 100%;
+    font-family: 'Georgia', sans-serif;
+    color:black;
+}
+.header{
+    color: #2E8B57;
+    font-size: 50px;
+    background: linear-gradient(0deg, #dee4ea,#f9fcff);
+
+}
+#graficlogo{
+    width: 200px;
+    height: 150px;
+}
+#topnav{
+    background: #2b9c5c;
+    
+}
+
+#topnav a{
+    color: rgb(165, 37, 37);
+    text-decoration: none;
+    
+}
+
+#topnav a:hover{
+    color: rgb(255, 252, 189);
+    text-decoration: none;
+}
+
+#my_footer{
+    background: linear-gradient(0deg, #dee4ea,#f9fcff);
+    color: black;
+}
+
+#my_link {
+    padding: 25px;
+}
+
+#my_link a{
+    color:black;
+}
+
+form{
+   background-color: #d6fdb1;
+   border: 3px solid  #327506c0;
+   border-radius: 20px;
+   color: #2f233a;
+}
+
+table{
+    background-color: #d6fdb1;
+    border: 3px solid #327506c0;
+    color: #2f233a;
+}
+
+th {
+    border: 3px solid #327506c0;
+}
+
+td {
+    border: 3px solid #327506c0;
+}
+
+tr:nth-child(2n) {
+    background-color: #d5fb98;
+}
+.cl_img {
+    max-width: 100%; height: auto;
+} 
